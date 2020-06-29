@@ -21,7 +21,7 @@ public class DateFormatNotThreadSafeSingleThread {
 	        }
 	    };
 
-	    //create pool with 10 threads
+	    //create pool with 1 thread
 	    ExecutorService executorService = Executors.newFixedThreadPool(1);
 	    List<Future<Date>> results = new ArrayList<Future<Date>>();
 
